@@ -67,35 +67,34 @@ li {
 }
 
 .lesson-wrapper{
-  height:800px;
+  height:750px;
   background-image:url(chess.png);
   background-size:cover;
 }
 .lesson-coment1{
   float:left;
   padding-left:20px;
-  padding-top:;
   font-size:20px;
   font-weight:bold
 }
 .lesson-coment2{
   float:left;
-  padding-left:280px;
-  padding-top:15px;
+  padding-left:135px;
+  padding-top:2px;
   font-size:20px;
 font-weight:bold;
 }
 .lesson-coment3{
   float:left;
-  padding-left:200px;
-  padding-top:15px;
+  padding-left:150px;
+  padding-top:2px;
   font-size:20px;
   font-weight:bold;
 }
 .lesson-coment4{
   float:left;
-  padding-left:220px;
-  padding-top:15px;
+  padding-left:80px;
+  padding-top:2px;
   font-size:20px;
   font-weight:bold;
 }
@@ -134,36 +133,4 @@ footer{
 footer a{
   color:white;
   padding:40px;
-}
-
-
-
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  footer {
-    text-align: center;
-  }
-
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-
-}
-
-
-@media all and (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-  .lesson-icon{
-    width:100%;
-  }
-
-
-
 }
