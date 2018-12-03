@@ -135,3 +135,35 @@ footer a{
   color:white;
   padding:40px;
 }
+
+
+
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+
+}
+
+
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  .lesson-icon{
+    width:100%;
+  }
+
+
+
+}
